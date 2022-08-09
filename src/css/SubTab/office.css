@@ -1,0 +1,36 @@
+.office_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.office {
+    width: 220px;
+    margin: 0 100px 100px 0;
+}
+.office:nth-child(5),
+.office:nth-child(9),
+.office:nth-child(13),
+.office:nth-child(17) {
+    margin-right: 0;
+}
+.product_icon {
+    display: flex;
+    width: 94px;
+    margin: 20px auto;
+}
+.product_icon>div {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 5px;
+}
+.product_cart {
+    margin-right: 20px;
+}
+.office_text {
+    text-align: center;
+}
+.office_desc {
+    font-size: 14px;
+    color: #666;
+    margin: 5px;
+}

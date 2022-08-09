@@ -1,0 +1,15 @@
+.steel {
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.steel_title {
+    width: 40%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.steel_desc {
+    width: 60%;
+    padding: 0 20px;
+}

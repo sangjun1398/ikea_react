@@ -1,0 +1,24 @@
+.size_wrap {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.size_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.size {
+    display: flex;
+}
+.size_img {
+    width: 480px;
+}
+.size_info {
+    margin: auto 0;
+    margin-left: 80px;
+}
+.size_info li {
+    margin-bottom: 30px;
+}

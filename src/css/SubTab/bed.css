@@ -1,0 +1,36 @@
+.bed_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bed {
+    width: 220px;
+    margin: 0 100px 100px 0;
+}
+.bed:nth-child(5),
+.bed:nth-child(9),
+.bed:nth-child(13),
+.bed:nth-child(17) {
+    margin-right: 0;
+}
+.product_icon {
+    display: flex;
+    width: 94px;
+    margin: 20px auto;
+}
+.product_icon>div {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 5px;
+}
+.product_cart {
+    margin-right: 20px;
+}
+.bed_text {
+    text-align: center;
+}
+.bed_desc {
+    font-size: 14px;
+    color: #666;
+    margin: 5px;
+}
